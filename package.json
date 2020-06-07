@@ -4,13 +4,26 @@
   "description": "Anime and Series Planner/Recognizer for new episodes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss style.css -w",
+    "build-app": "node_modules/.bin/webpack --mode production",
+    "webpack-server": "webpack-dev-server --mode development"
   },
   "author": "SuperJansen",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
-    "@babel/preset-env": "^7.10.2"
-  }
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "materialize-css": "^1.0.0-rc.2",
+    "node-sass": "^4.14.1",
+    "puppeteer": "^3.3.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
 }

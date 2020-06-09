@@ -1,28 +1,14 @@
 
-import Header from './components/nav'
-import Footer from './components/footer'
+import Navigation from './components/nav'
 
-/*const App = async () => {
-    const template = document.createElement('template');
-    template.innerHTML = `
-    <div class="container">
-        ${Header()}
-        ${Content()}
-        ${Footer()}
-    </div>
-    `
 
-    return template;
-}
 
-export default App;*/
 
 const App = () => {
     const template = document.createElement('template')
     template.innerHTML = `
     <div class="container">
-        ${Header()}
-        ${Footer()}
+        ${Navigation()}
     </div>
     `
     // Return a new node from template

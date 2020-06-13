@@ -1,24 +1,64 @@
 import init_Nav from './initNav';
+import '../css/welcomeHeader.scss';
+
+
+const load_Image = (src) => {
+    const template = `
+    <img src=${headerbg}/>
+    `
+    return template
+}
 
 const Navigation = () => {
     init_Nav();
     const template = `
-    <ul id="slide-out" class="sidenav">
-        <li><div class="user-view">
-            <div class="background">
-                <img src="images/office.jpg">
+    <div class="navbar-fixed">
+        <nav class="indigo darken-4">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">PlanVI</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                    <a href="#home">Calendar</a>
+                    </li>
+                    <li>
+                    <a href="#search">Interests</a>
+                    </li>
+                    <li>
+                    <a href="#popular">Search</a>
+                    </li>
+                    <li>
+                    <a href="#gallery">Ratings</a>
+                    </li>
+                    <li>
+                    <a href="#contact">Episode Checker</a>
+                    </li>
+                </ul>
             </div>
-            <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-            <a href="#name"><span class="white-text name">John Doe</span></a>
-            <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-        </div></li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#popular">Popular Places</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <div class="section welcome__header" id="index-banner">
+      <div class="container">
+        <br><br>
+        <h1 class="header center orange-text">Starter Template</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+        </div>
+        <br><br>
+      </div>
+    </div>
     `;
     return template;
 }

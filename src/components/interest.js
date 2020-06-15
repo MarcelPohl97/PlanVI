@@ -1,14 +1,17 @@
 import '../css/utilities.scss';
+import init_EnlargeImg from './initEnlargeImg'
 
-const SeriesCards = () => {
+const Interests = () => {
+    init_EnlargeImg();
     const template = `
-    <div class="section white" id="index-banner">
+    <div class="section" id="index-banner">
         <div class="container">
+            <h3 class="header indigo-text text-darken-4 center-align">Interests</h3>
             <div class="row">
                 <div class="col s12 m4">
                     <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://image.ibb.co/mbCVnH/resort3.jpg">
+                        <div class="card-image">
+                            <img class="materialboxed" src="https://image.ibb.co/mbCVnH/resort3.jpg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -25,8 +28,8 @@ const SeriesCards = () => {
                 </div>
                 <div class="col s12 m4">
                     <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://image.ibb.co/mbCVnH/resort3.jpg">
+                        <div class="card-image">
+                            <img class="materialboxed" src="https://image.ibb.co/mbCVnH/resort3.jpg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -43,8 +46,8 @@ const SeriesCards = () => {
                 </div>
                 <div class="col s12 m4">
                     <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://image.ibb.co/mbCVnH/resort3.jpg">
+                        <div class="card-image">
+                            <img class="materialboxed" src="https://image.ibb.co/mbCVnH/resort3.jpg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -66,4 +69,4 @@ const SeriesCards = () => {
     return template;
 }
 
-export default SeriesCards;
+export default Interests;

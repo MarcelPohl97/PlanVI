@@ -2,7 +2,8 @@
 import Navigation from './components/nav'
 import Header from './components/header'
 import SearchAnime from './components/searchseries'
-import SeriesCards from './components/seriescards'
+import Series from './components/series'
+import Interests from './components/interest'
 
 
 
@@ -13,7 +14,8 @@ const App = () => {
         ${Navigation()}
         ${Header()}
         ${SearchAnime()}
-        ${SeriesCards()}
+        ${Series()}
+        ${Interests()}
     `   
     // Return a new node from template
     return template.content.cloneNode(true);

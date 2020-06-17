@@ -1,16 +1,20 @@
 website design inspiration: 
 -> https://pbs.twimg.com/media/ESaSJvYU8AEReDK?format=jpg&name=4096x4096
 -> https://static.collectui.com/shots/2940650/fitness-app-large
+-> https://www.themoviedb.org/?language=de
+-> 
 
 todo:
 -> build the overall layout
 
 to add:
+ 
 ->  add a calendar to set plannings for upcoming episodes you want to watch
--> add an interest section where you can add all series or animes your interested in
--> add info section for a specific anime
 -> add imdb ratings from a series or anime to let people see what what ratings it has (make a table)
 -> add a check for new episode cloud function if episode is new email it
 
+-> all adding stuff is going to be functioning from the input and selectable actions from the select
+-> search anime pops up as modal
+
 to fix:
-->
+-> fix color in search series selection

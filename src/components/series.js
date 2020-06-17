@@ -4,9 +4,6 @@ import init_Modal from './initModal'
 const Series = () => {
     init_Modal();
     const template = `
-    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
-
-    <!-- Modal Structure -->
     <div id="modal1" class="modal">
         <div class="modal-content">
             <h4>Modal Header</h4>

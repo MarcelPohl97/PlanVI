@@ -1,9 +1,6 @@
 
 import Navigation from './components/nav'
-import Header from './components/header'
-import SearchAnime from './components/searchseries'
-import Series from './components/series'
-import Interests from './components/interest'
+import Dashboard from './components/dashboard'
 
 
 
@@ -12,10 +9,7 @@ const App = () => {
     const template = document.createElement('template')
     template.innerHTML = `
         ${Navigation()}
-        ${Header()}
-        ${SearchAnime()}
-        ${Series()}
-        ${Interests()}
+        ${Dashboard()}
     `   
     // Return a new node from template
     return template.content.cloneNode(true);

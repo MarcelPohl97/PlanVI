@@ -3,26 +3,11 @@
 }
 
 .margin-top-mini {
-    margin-top: 1rem;
+    margin-top: .5rem !important;
 }
 
-.padding-all-medium {
-    padding: 4rem 0;
+.row {
+    margin-bottom: 0 !important;
 }
 
-.padding-all-mini {
-    padding: .5rem 0 !important;
-}
 
-.max-width-400 {
-    width: 600px !important;
-}
-
-.center-item {
-    display: flex !important;
-    justify-content: center !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    left:0 !important;
-    right:0 !important;
-}

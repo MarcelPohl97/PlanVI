@@ -8,25 +8,25 @@ const Navigation = () => {
       <nav>
         <div class="nav-wrapper blue darken-3">
           <div class="container">
-            <a href="#!" class="brand-logo">PlanVI</a>
+            <a href="#!" class="brand-logo" id="brand-logo">PlanVI</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="sass.html">Dashboard</a></li>
-              <li><a href="badges.html">Search Series</a></li>
-              <li><a href="badges.html">Interests</a></li>
-              <li><a href="badges.html">Check Episode</a></li>
-              <li><a href="badges.html">Calendar</a></li>
+            <ul class="right hide-on-med-and-down header-nav">
+              <li><a data-id="dashboard">Dashboard</a></li>
+              <li><a data-id="searchseries">Search Series</a></li>
+              <li><a data-id="interests">Interests</a></li>
+              <li><a data-id="checkepisode">Check Episode</a></li>
+              <li><a data-id="calendar">Calendar</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Dashboard</a></li>
-      <li><a href="badges.html">Search Series</a></li>
-      <li><a href="badges.html">Interests</a></li>
-      <li><a href="badges.html">Check Episode</a></li>
-      <li><a href="badges.html">Calendar</a></li>
+    <ul class="sidenav header-nav" id="mobile-demo">
+      <li><a data-id="dashboard">Dashboard</a></li>
+      <li><a data-id="searchseries">Search Series</a></li>
+      <li><a data-id="interests">Interests</a></li>
+      <li><a data-id="checkepisode">Check Episode</a></li>
+      <li><a data-id="calendar">Calendar</a></li>
     </ul>
     `;
     return template;

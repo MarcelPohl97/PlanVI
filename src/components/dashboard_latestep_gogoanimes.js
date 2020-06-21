@@ -1,14 +1,14 @@
-const dashboard_latestep_serienstream = () => {
+const dashboard_latestep_gogoanimes = () => {
     const template = `
     <div class="col s12 m12 l5 xl5">
         <div class="card-panel white hoverable">
-            <h4 class="black-text">Latest Episodes serienstream.sx</h4>
+            <h4 class="black-text">Latest Episodes gogoanimes.co</h4>
             <div class="row valign-wrapper">
                 <div class="col s4 m2 l2 xl2">
-                    <img src="https://i0.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2019/12/91-QmTLQzbL._RI_.jpg?fit=1000%2C1500&ssl=1" alt="" class="circle responsive-img">
+                    <img src="https://www.japanpowered.com/media/images/anime-chibi-naruto-hinata.jpg" alt="" class="circle responsive-img">
                 </div>
                 <div class="col s8 m10 l9 xl10">
-                    <h6 class="black-text">Supernatural</h6>
+                    <h6 class="black-text">Boruto</h6>
                     <p class="black-text">Episode 167</p>
                     <a class="btn blue darken">Watch Online</a>
                     <div class="section"></div>
@@ -17,10 +17,10 @@ const dashboard_latestep_serienstream = () => {
             <div class="divider"></div>
             <div class="row valign-wrapper">
                 <div class="col s4 m2 l2 xl2">
-                    <img src="https://i0.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2019/12/91-QmTLQzbL._RI_.jpg?fit=1000%2C1500&ssl=1" alt="" class="circle responsive-img">
+                    <img src="https://www.japanpowered.com/media/images/anime-chibi-naruto-hinata.jpg" alt="" class="circle responsive-img">
                 </div>
                 <div class="col s8 m10 l9 xl10">
-                    <h6 class="black-text">Supernatural</h6>
+                    <h6 class="black-text">Boruto</h6>
                     <p class="black-text">Episode 167</p>
                     <a class="btn blue darken">Watch Online</a>
                     <div class="section"></div>
@@ -29,10 +29,10 @@ const dashboard_latestep_serienstream = () => {
             <div class="divider"></div>
             <div class="row valign-wrapper">
                 <div class="col s4 m2 l2 xl2">
-                    <img src="https://i0.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2019/12/91-QmTLQzbL._RI_.jpg?fit=1000%2C1500&ssl=1" alt="" class="circle responsive-img">
+                    <img src="https://www.japanpowered.com/media/images/anime-chibi-naruto-hinata.jpg" alt="" class="circle responsive-img">
                 </div>
                 <div class="col s8 m10 l9 xl10">
-                    <h6 class="black-text">Supernatural</h6>
+                    <h6 class="black-text">Boruto</h6>
                     <p class="black-text">Episode 167</p>
                     <a class="btn blue darken">Watch Online</a>
                     <div class="section"></div>
@@ -46,4 +46,4 @@ const dashboard_latestep_serienstream = () => {
     return template;
 }
 
-export default dashboard_latestep_serienstream;
+export default dashboard_latestep_gogoanimes;

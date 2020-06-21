@@ -1,54 +1,47 @@
-const dashboard_calendar = () => {
+const dashboard_interests = () => {
     const template = `
-    <div class="row blue lighten-4 section">
+    <div class="row grey lighten-3 section">
         <div class="col s12 m12 l7 xl7">
             <div class="card-panel white hoverable">
-                <h4 class="black-text">Latest Calendar Entries</h4>
+                <h4 class="black-text">Latest Interests</h4>
                 <table class="striped responsive-table">
                     <thead>
                         <tr>
                             <th>Series</th>
-                            <th>Season</th>
-                            <th>Episode</th>
-                            <th>Date</th>
+                            <th>Genre</th>
+                            <th>Rating</th>
                             <th></th>
                         </tr>
                     </thead>
-                
                     <tbody>
                         <tr>
                             <td>Boruto</td>
-                            <td>10</td>
-                            <td>165</td>
-                            <td>20.06.2020</td>
+                            <td>Action</td>
+                            <td>7.9</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                         </tr>
                         <tr>
                             <td>Arrow</td>
-                            <td>2</td>
-                            <td>10</td>
-                            <td>22.06.2020</td>
+                            <td>Action</td>
+                            <td>9.3</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                         </tr>
                         <tr>
                             <td>The 100</td>
-                            <td>7</td>
-                            <td>5</td>
-                            <td>23.06.2020</td>
+                            <td>Action</td>
+                            <td>8.6</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                         </tr>
                         <tr>
-                            <td>The 100</td>
-                            <td>7</td>
-                            <td>5</td>
-                            <td>23.06.2020</td>
+                            <td>The Walking Dead</td>
+                            <td>Horror</td>
+                            <td>7.7</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                         </tr>
                         <tr>
-                            <td>The 100</td>
-                            <td>7</td>
-                            <td>5</td>
-                            <td>23.06.2020</td>
+                            <td>Supernatural</td>
+                            <td>Mystery</td>
+                            <td>9.6</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                         </tr>
                     </tbody>
@@ -59,5 +52,4 @@ const dashboard_calendar = () => {
     return template;
 }
 
-export default dashboard_calendar;
-
+export default dashboard_interests;

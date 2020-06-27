@@ -5,15 +5,12 @@ website design inspiration:
 -> https://www.youtube.com/watch?v=1jmNRTXwGhM&t=330s
 
 todo:
--> build the overall layout
+
 
 to add:
 
-loading spinner + load new page:
--> hide all pages
--> make loading page visible
--> make loading page invisible
--> load only the specific clicked page
+
  
  to fix:
  -> dashboard latest images not round
+ -> input change color

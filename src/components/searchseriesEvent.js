@@ -1,24 +1,18 @@
-const get_movie = (movie) => {
-    fetch(`http://www.omdbapi.com/?apikey=75046c65&t=${movie}`).then((response) => {
-              return response.json();
-          }).then(data => {
-              document.getElementById("search-poster").src = data["Poster"]
-              document.getElementById("search-title").innerHTML = data["Title"]
-              document.getElementById("search-plot").innerHTML = data["Plot"]
-          }).catch((err) => {
-              console.log("rejected", err);
-          })  
-      }
+import get_movie from './query_OMDB_API'
 
-
+const load_Searchseries = (data) => {
+    document.getElementById("search-poster").src = data["Poster"]
+    document.getElementById("search-title").textContent = data["Title"]
+    document.getElementById("search-plot").textContent = data["Plot"]
+    document.getElementById("search-produced").textContent = data["Country"]
+    document.getElementById("search-genre").textContent = data["Genre"]
+    document.getElementById("search-year").textContent = data["Year"]
+}
 
 
 const searchseries_Event = () => {
     const search_Input = document.getElementById("search");
-    const searchseries_Event = document.getElementById("searchseriesEvent")
-    searchseries_Event.addEventListener("click", () => {
-        get_movie(search_Input.value);
-    })
+    get_movie(search_Input.value, load_Searchseries);
 }
 
 export default searchseries_Event;

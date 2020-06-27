@@ -1,10 +1,12 @@
 import nav_Events from './nav_Events'
-import searchseries_Event from './searchseriesEvent';
+import modal_Events from './modal_Events';
+
+
 
 const init_Events = () => {
     document.addEventListener("DOMContentLoaded", () => {
         nav_Events();
-        searchseries_Event();
+        modal_Events();
     })
 }
 

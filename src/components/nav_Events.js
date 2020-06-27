@@ -4,11 +4,12 @@ const nav_Events = () => {
     //Variables for all Sections
     const dashboard = document.getElementsByClassName("dashboard")[0];
     const searchseries = document.getElementsByClassName("searchseries")[0];
+    const interests = document.getElementsByClassName("interests")[0];
     const preloader = document.getElementsByClassName("preloader")[0];
     
     //add Hide class function to add hide on all Sections
     const add_Hide = () => {
-        [dashboard, searchseries, preloader].forEach(item => {
+        [dashboard, searchseries, interests, preloader].forEach(item => {
             item.classList.add("hide");
         })
     }

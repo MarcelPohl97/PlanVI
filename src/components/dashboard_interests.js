@@ -8,6 +8,8 @@ const dashboard_interests = () => {
                     <thead>
                         <tr>
                             <th>Series</th>
+                            <th>Season</th>
+                            <th>Episode</th>
                             <th>Genre</th>
                             <th>Rating</th>
                             <th></th>
@@ -16,30 +18,40 @@ const dashboard_interests = () => {
                     <tbody>
                         <tr>
                             <td>Boruto</td>
+                            <td>5</td>
+                            <td>103</td>
                             <td>Action</td>
                             <td>7.9</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                         </tr>
                         <tr>
                             <td>Arrow</td>
+                            <td>5</td>
+                            <td>103</td>
                             <td>Action</td>
                             <td>9.3</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                         </tr>
                         <tr>
                             <td>The 100</td>
+                            <td>5</td>
+                            <td>103</td>
                             <td>Action</td>
                             <td>8.6</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                         </tr>
                         <tr>
                             <td>The Walking Dead</td>
+                            <td>5</td>
+                            <td>103</td>
                             <td>Horror</td>
                             <td>7.7</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                         </tr>
                         <tr>
                             <td>Supernatural</td>
+                            <td>5</td>
+                            <td>103</td>
                             <td>Mystery</td>
                             <td>9.6</td>
                             <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>

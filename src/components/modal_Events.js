@@ -1,5 +1,6 @@
 import searchseries_Event from './searchseriesEvent';
 import modal_action_loader from './modal_action_button_loader'
+import add_Interest from './interest_Event'
 
 const modal_Events = () => {
     modal_action_loader();
@@ -11,7 +12,7 @@ const modal_Events = () => {
                 searchseries_Event();
                 break;
             case condition.contains("interest-action-event"):
-                alert("Added Interest");
+                add_Interest();
                 break;
         }
     })

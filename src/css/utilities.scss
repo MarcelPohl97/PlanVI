@@ -29,3 +29,7 @@
 .tabs .indicator {
     background-color:#2196f3 !important;
 } /*Color of underline*/
+
+.disabled {
+    pointer-events: none;
+}

@@ -5,7 +5,9 @@ website design inspiration:
 -> https://www.youtube.com/watch?v=1jmNRTXwGhM&t=330s
 
 todo:
-
+-> event delegatio when new table or table-row is added due to checking it after it got appended in the dom
+-> div element to add table underneath the corresponding other tables
+-> set the new tables property style to display none;
 
 to add:
 

@@ -46,5 +46,8 @@ module.exports = {
         }
         
     ]
-    }
+    },
+    externals: {
+        cheerio: 'cheerio'
+      }
 };

@@ -9,7 +9,6 @@ const load_Searchseries = (data) => {
     document.getElementById("search-year").textContent = data["Year"]
 }
 
-
 const searchseries_Event = () => {
     const search_Input = document.getElementById("search");
     get_movie(search_Input.value, load_Searchseries);

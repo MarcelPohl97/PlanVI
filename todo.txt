@@ -5,7 +5,9 @@ website design inspiration:
 -> https://www.youtube.com/watch?v=1jmNRTXwGhM&t=330s
 
 todo:
--> create django api for scraping data 
+-> when scraping data and pulling them from api we need: 
+    -> add rating from omdb api in python api call
+    -> and add search input requirements title-season-episode
 
 to add:
 

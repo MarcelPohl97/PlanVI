@@ -6,11 +6,12 @@ website design inspiration:
 
 todo:
 -> when scraping data and pulling them from api we need: 
-    -> add rating from omdb api in python api call
-    -> and add search input requirements title-season-episode
+    -> optimize add table and table row try to combine to clean up code
+    -> try find a optimized way to use this as a resuable component because check episode and and calendar also have tables with the same functionality
 
 to add:
-
+-> filter list for interests, check episode, calendar
+-> add dropdown in modal to show input requirements for each task
 
  
  to fix:

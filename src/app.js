@@ -3,6 +3,7 @@ import Navigation from './components/nav'
 import Dashboard from './components/dashboard'
 import Searchseries from './components/searchseries'
 import Interests from './components/interests'
+import checkEpisode from './components/check_episode'
 import Preloader from './components/preloader'
 import Footer from './components/footer'
 import Modal from './components/modal'
@@ -18,6 +19,7 @@ const App = () => {
         ${Dashboard()}
         ${Searchseries()}
         ${Interests()}
+        ${checkEpisode()}
         ${Preloader()}
         ${Modal()}
         ${Footer()}

@@ -28,6 +28,9 @@ const add_tab_btn = (i) => {
 const add_table = (i, data) => {
     const interest_panel = document.getElementsByClassName("interest-panel")[0];
     const data_table = document.createElement("div");
+    //Date Picker will be later used for when we pick a day in the calendar option
+    let date_picker = undefined
+    const check_date = (date_picker == undefined) ? new Date().toLocaleDateString() : data.date;
     data_table.style.display = "none";
     data_table.id = `interesting-data-${i}`
     data_table.classList = `col s12 white`
@@ -42,6 +45,7 @@ const add_table = (i, data) => {
                             <th>Episode</th>
                             <th>Genre</th>
                             <th>Rating</th>
+                            <th>Date</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -51,6 +55,7 @@ const add_table = (i, data) => {
                         <td>${data.episode}</td>
                         <td>${data.genre}</td>
                         <td>${data.rating}</td>
+                        <td>${check_date}</td>
                         <td class="btn blue darken valign-wrapper margin-top-mini">Watch Online</td>
                     </tbody>
                 </table>
@@ -61,7 +66,9 @@ const add_table = (i, data) => {
 }
 
 const add_Interest = () => {
-    scrape_Anime(document.getElementById("search").value, check_Interest)
+    const serienstream_requirements = "https://serienstream.sx/serie/stream/"
+    const input = document.getElementById("search").value
+    scrape_Anime(serienstream_requirements.concat(input), check_Interest)
 }
 
 const check_Interest = (data) => {
